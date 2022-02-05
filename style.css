@@ -98,7 +98,8 @@ h1 {
   background: white;
 }
 
-.escape-desc {
+.escape-desc,
+.why {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -207,6 +208,20 @@ footer {
   text-align: center;
 }
 
+/* Why Page */
+.why {
+  margin: 1rem 15rem;
+}
+
+.why p {
+  margin-top: 1rem;
+}
+
+.why h3 {
+  text-indent: 5rem;
+  margin-top: 3rem;
+}
+
 @media screen and (max-width: 1260px) {
   main {
     width: 100%;
@@ -282,5 +297,10 @@ footer {
   h1 {
     font-size: 70%;
     text-align: center;
+  }
+
+  .why {
+    margin: auto;
+    margin-top: 1rem;
   }
 }
